@@ -11,7 +11,7 @@ interface CardProps {
 
 export default function Card({ imageUrl, title, description, linkUrl }: CardProps) {
   const [imgSrc, setImgSrc] = useState(imageUrl);
-  const oakwood = '#C19A6B';
+
 
   const cardContent = (
     <div className="relative w-full max-w-md h-96 overflow-hidden rounded-xl shadow-2xl transition-transform duration-300 hover:scale-[1.02]">

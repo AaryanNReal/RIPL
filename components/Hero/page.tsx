@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
-import { FiChevronLeft, FiChevronRight, FiPlay, FiPause } from 'react-icons/fi';
+import { FiChevronLeft, FiChevronRight,} from 'react-icons/fi';
 import { getFirestore, doc, getDoc } from 'firebase/firestore';
 import { app } from '@/app/lib/firebase'; // Your existing Firebase config import
 

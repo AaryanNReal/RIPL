@@ -1,23 +1,20 @@
 'use client';
 
-import { MapPinIcon, PhoneIcon, EnvelopeIcon, ClockIcon } from '@heroicons/react/24/outline';
+import { PhoneIcon, ClockIcon } from '@heroicons/react/24/outline';
 
 export function ContactInfo() {
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8 ">
+    <section className="py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-black text-oakwood sm:text-4xl">Get In Touch</h2>
           <div className="mt-4 h-1 w-20 bg-ashwood mx-auto"></div>
           <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-            We'd love to hear from you. Here's how you can reach us.
+            We&apos;d love to hear from you. Here&apos;s how you can reach us.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-          {/* Location */}
-          
-
           {/* Contact */}
           <div className="bg-white p-8 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow duration-300">
             <div className="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-oakwood/10 mb-4">
@@ -64,9 +61,6 @@ export function ContactInfo() {
             </p>
           </div>
         </div>
-
-        {/* Map Placeholder */}
-        
       </div>
     </section>
   );
