@@ -28,8 +28,10 @@ export default function Navbar() {
   const navItems = [
     { href: '#home', label: 'Home', icon: FiHome, key: 'home' },
     { href: '#projects', label: 'Projects', icon: FiPackage, key: 'project' },
+    { href: '#work', label: 'Services', icon: FiMail, key: 'work' },
     { href: '#about', label: 'About', icon: FiUser, key: 'about' },
     { href: '#contact', label: 'Contact', icon: FiMail, key: 'contact' },
+    
 ];
 
   return (

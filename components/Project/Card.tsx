@@ -29,7 +29,7 @@ export default function Card({ imageUrl, title, description, linkUrl }: CardProp
       {/* Text Content */}
       <div className="absolute inset-0 flex flex-col justify-end p-6 space-y-2">
         <h3 className="text-2xl font-bold text-white">{title}</h3>
-        <p className="text-white/90 text-lg">{description}</p>
+        <p className="text-white/90 text-lg line-clamp-2">{description}</p>
       </div>
     </div>
   );

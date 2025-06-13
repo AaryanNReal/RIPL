@@ -3,7 +3,7 @@ import HeroCarousel from "@/components/Hero/page";
 import ProjectsGrid from '@/components/Project/page';
 import { AboutUs } from '@/components/About/page';
 import { ContactInfo } from '@/components/Contact/page';
-
+import WhatWeDo from '@/components/Features/page';
 export default function Home() {
   return (
     <div className="relative min-h-screen">
@@ -18,6 +18,10 @@ export default function Home() {
         
         <section id="projects">
           <ProjectsGrid />
+        </section>
+
+        <section id="work">
+          <WhatWeDo />
         </section>
         
         <section id="about">
